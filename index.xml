@@ -1,33 +1,33 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>OsirisMedia</title>
-        <link>https://OsirisDBA.github.io/</link>
+        <link>https://www.osirismedia.biz/</link>
         <description>OsirisMedia</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 23:53:34 -0600</lastBuildDate>
-            <atom:link href="https://OsirisDBA.github.io/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://www.osirismedia.biz/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>All in on Jump Servers</title>
-    <link>https://OsirisDBA.github.io/posts/all-in-on-jump-servers/</link>
+    <link>https://www.osirismedia.biz/posts/all-in-on-jump-servers/</link>
     <pubDate>Mon, 05 Aug 2019 23:53:34 -0600</pubDate>
     <author>Author</author>
-    <guid>https://OsirisDBA.github.io/posts/all-in-on-jump-servers/</guid>
+    <guid>https://www.osirismedia.biz/posts/all-in-on-jump-servers/</guid>
     <description><![CDATA[One of the blogs I follow regularly is Brent Ozar‘s. He does an excellent job pointing out or explaining issues that dba’s need to think about. This post from a few days ago is an excellent case in point. Having a server that sits in the same infrastructure and that you can let long running queries run on without issue is wonderful. No more worries about disconnections or battery failures stopping long running queries.]]></description>
 </item><item>
     <title>Custom Sql Metrics Gathering With Telegraf (Part 2)</title>
-    <link>https://OsirisDBA.github.io/posts/custom-sql-metrics-gathering-with-telegraf-part-2/</link>
+    <link>https://www.osirismedia.biz/posts/custom-sql-metrics-gathering-with-telegraf-part-2/</link>
     <pubDate>Mon, 05 Aug 2019 22:51:58 -0600</pubDate>
     <author>Author</author>
-    <guid>https://OsirisDBA.github.io/posts/custom-sql-metrics-gathering-with-telegraf-part-2/</guid>
+    <guid>https://www.osirismedia.biz/posts/custom-sql-metrics-gathering-with-telegraf-part-2/</guid>
     <description><![CDATA[In Part 1, we covered how to get telegraf to execute a stored procedure on a schedule. This time we’ll take a look at what that procedure looks like.
 What is Influx Line Protocol format Telegraf is expecting the data to be returned in InfluxDB Line Protocol format. It’s a very simple text format that contains 4 parts.
 [measurement],[tags] [fields] [timestamp]
 Measurement This is the name of the metric in influx.]]></description>
 </item><item>
     <title>Custom Sql Metrics Gathering With Telegraf (Part 1)</title>
-    <link>https://OsirisDBA.github.io/posts/custom-sql-metrics-gathering-with-telegraf-part-1/</link>
+    <link>https://www.osirismedia.biz/posts/custom-sql-metrics-gathering-with-telegraf-part-1/</link>
     <pubDate>Mon, 05 Aug 2019 00:00:00 -0600</pubDate>
     <author>Author</author>
-    <guid>https://OsirisDBA.github.io/posts/custom-sql-metrics-gathering-with-telegraf-part-1/</guid>
+    <guid>https://www.osirismedia.biz/posts/custom-sql-metrics-gathering-with-telegraf-part-1/</guid>
     <description><![CDATA[I love using telegraf and the sql server plugin that Tracy and Mark have championed. It’s an integral part of the Collecting Performance Metrics presentation that Tracy has given to about a billion people so far. It does have a few unfortunate limitations though since it doesn’t support SQL Server 2005. Which is sad because I still have a few instances which I cannot yet retire.
 So let’s fix that.]]></description>
 </item></channel>
