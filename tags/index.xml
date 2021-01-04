@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - OsirisMedia</title>
+        <link>https://OsirisDBA.github.io/tags/</link>
+        <description>Tags - Tag - OsirisMedia</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 23:53:34 -0600</lastBuildDate><atom:link href="https://OsirisDBA.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>sqlserver</title>
+    <link>https://OsirisDBA.github.io/tags/sqlserver/</link>
+    <pubDate>Mon, 05 Aug 2019 23:53:34 -0600</pubDate>
+    <author>Author</author>
+    <guid>https://OsirisDBA.github.io/tags/sqlserver/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>telegraf</title>
+    <link>https://OsirisDBA.github.io/tags/telegraf/</link>
+    <pubDate>Mon, 05 Aug 2019 22:51:58 -0600</pubDate>
+    <author>Author</author>
+    <guid>https://OsirisDBA.github.io/tags/telegraf/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>telegraf - Tag - OsirisMedia</title>
+        <link>https://OsirisDBA.github.io/tags/telegraf/</link>
+        <description>telegraf - Tag - OsirisMedia</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 22:51:58 -0600</lastBuildDate><atom:link href="https://OsirisDBA.github.io/tags/telegraf/" rel="self" type="application/rss+xml" /><item>
+    <title>Custom Sql Metrics Gathering With Telegraf (Part 2)</title>
+    <link>https://OsirisDBA.github.io/posts/custom-sql-metrics-gathering-with-telegraf-part-2/</link>
+    <pubDate>Mon, 05 Aug 2019 22:51:58 -0600</pubDate>
+    <author>Author</author>
+    <guid>https://OsirisDBA.github.io/posts/custom-sql-metrics-gathering-with-telegraf-part-2/</guid>
+    <description><![CDATA[In Part 1, we covered how to get telegraf to execute a stored procedure on a schedule. This time we’ll take a look at what that procedure looks like.
+What is Influx Line Protocol format Telegraf is expecting the data to be returned in InfluxDB Line Protocol format. It’s a very simple text format that contains 4 parts.
+[measurement],[tags] [fields] [timestamp]
+Measurement This is the name of the metric in influx.]]></description>
+</item><item>
+    <title>Custom Sql Metrics Gathering With Telegraf (Part 1)</title>
+    <link>https://OsirisDBA.github.io/posts/custom-sql-metrics-gathering-with-telegraf-part-1/</link>
+    <pubDate>Mon, 05 Aug 2019 00:00:00 -0600</pubDate>
+    <author>Author</author>
+    <guid>https://OsirisDBA.github.io/posts/custom-sql-metrics-gathering-with-telegraf-part-1/</guid>
+    <description><![CDATA[I love using telegraf and the sql server plugin that Tracy and Mark have championed. It’s an integral part of the Collecting Performance Metrics presentation that Tracy has given to about a billion people so far. It does have a few unfortunate limitations though since it doesn’t support SQL Server 2005. Which is sad because I still have a few instances which I cannot yet retire.
+So let’s fix that.]]></description>
+</item></channel>
+</rss>
